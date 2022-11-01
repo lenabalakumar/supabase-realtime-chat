@@ -12,6 +12,24 @@
   align-items: center;
 }
 
+.messagesContainer {
+  height: 600px;
+  width: 600px;
+  background-color: #719ece;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.messageContainer {
+  background-color: azure;
+  margin: 10px 0 0 0;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 25px;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -126,4 +144,14 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.textInput {
+  height: 100px;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  outline: none !important;
+  border: 1px solid red;
+  box-shadow: 0 0 10px #719ece;
 }
